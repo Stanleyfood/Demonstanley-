@@ -17,7 +17,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY FOOD"
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗",
+BOT_NAME: process.env.BOT_NAME || "shit",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "PRINCE MDX",
 // type sticker pack name 
@@ -52,7 +52,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
@@ -70,6 +70,6 @@ ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 };
